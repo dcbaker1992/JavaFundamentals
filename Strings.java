@@ -24,6 +24,24 @@ public class Strings {
 // Will print out Hi Jack, you owe me $25.00 !
 // Where %s is expecting a string
 // And %.2f is expecting a float data type. The value 2 will just place two values to right of the decimal point.
+    
+
+
+
+
+        //UPPERCASE and lowercase
+        String a = "HELLO";
+        String b = "world";
+        System.out.println(a.toLowerCase()); // hello
+        System.out.println(b.toUpperCase()); // WORLD
+    
+    
+    
+        String a1 = new String("word");
+        String b1 = new String("word");
+        System.out.println(a1 == b1); // false. not the same exact object.
+        System.out.println(a1.equals(b1)); // true. same exact characters.
+    
     }
 }
 
